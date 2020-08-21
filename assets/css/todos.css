@@ -1,0 +1,83 @@
+body{
+	font-family: Roboto;
+	background: linear-gradient(90deg, #2bc0e4 35%, #eaecc6 65%);
+}
+
+h1{
+	background: #2980b9;	
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+input[type="text" i]{
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+	padding: 13px 13px 13px 20px; 
+	width: 100%;	
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	border: 2px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background: white;
+	border: 2px solid #2980b9;
+
+}
+
+.fa-edit{
+	float: right;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+#container{
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	background: #f7f7f7;
+}
+
+.completed{
+	color: grey;
+	text-decoration: line-through;
+}
+li{
+	background: white;
+	line-height: 40px;
+	color: #666;
+	margin: auto 0;
+	
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+span{
+	background: #e74c3c;
+	height: 100%;
+	margin: auto 0;
+	text-align: center;
+	padding-left: 5px;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+span:hover{
+	width: 40px;
+	opacity: 1;
+}
